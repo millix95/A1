@@ -646,7 +646,7 @@ nav a {
     width: 34px;
     height: 59px;
     left: 93%;
-    bottom: 237px;
+    bottom: 270px;
     opacity: 0;
     cursor: pointer;
 }
@@ -660,6 +660,7 @@ nav a {
     background-image: url(./dvije-slike/desno/pozadina.png);
     background-repeat: no-repeat;
     background-size: cover;
+    display: none;
 }
 
 #dve-slike-levo2 {
@@ -696,7 +697,7 @@ nav a {
 
 #dve-slike-strelica-levo {
     position: relative;
-    bottom: 220px;
+    bottom: 251px;
     left: 3%;
     width: 34px;
     height: 59px;
@@ -711,8 +712,10 @@ nav a {
 
 
 footer {
-    width: 90vw;
-    height: 100vh;
-    background-color: gray;
+    background-image: url(./footer/Footer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 649px;
     margin-top: 150px;
 }
