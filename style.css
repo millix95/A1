@@ -646,7 +646,7 @@ nav a {
     width: 34px;
     height: 59px;
     left: 93%;
-    bottom: 270px;
+    bottom: 225px;
     opacity: 0;
     cursor: pointer;
 }
@@ -697,7 +697,7 @@ nav a {
 
 #dve-slike-strelica-levo {
     position: relative;
-    bottom: 251px;
+    bottom: 208px;
     left: 3%;
     width: 34px;
     height: 59px;
@@ -716,6 +716,6 @@ footer {
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
-    height: 649px;
+    height: 466px;
     margin-top: 150px;
 }
