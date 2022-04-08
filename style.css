@@ -298,7 +298,7 @@ nav a {
 
 #ikonice1 {
     position: relative;
-    top: 46%;
+    top: 44%;
     left: calc(50% - 100px);
 }
 
@@ -636,20 +636,19 @@ nav a {
 
 #dve-slike-strelica-desno-slika {
     position: relative;
-    left: 90%;
-    bottom: 320px;
+    left: 93%;
+    bottom: 140px;
     display: block;
 }
 
 #dve-slike-strelica-desno {
     position: relative;
-    left: 90%;
-    bottom: 380px;
     width: 34px;
     height: 59px;
+    left: 93%;
+    bottom: 237px;
     opacity: 0;
     cursor: pointer;
-    display: block;
 }
 
 
@@ -661,7 +660,6 @@ nav a {
     background-image: url(./dvije-slike/desno/pozadina.png);
     background-repeat: no-repeat;
     background-size: cover;
-    display: none;
 }
 
 #dve-slike-levo2 {
@@ -690,22 +688,20 @@ nav a {
 
 #dve-slike-strelica-levo-slika {
     position: relative;
-    bottom: 321px;
-    left: 75px;
-    display: none;
+    bottom: 120px;
+    left: 3%;
 }
 
 
 
 #dve-slike-strelica-levo {
     position: relative;
-    bottom: 380px;
-    left: 75px;
+    bottom: 220px;
+    left: 3%;
     width: 34px;
     height: 59px;
     opacity: 0;
     cursor: pointer;
-    display: none;
 }
 
 
