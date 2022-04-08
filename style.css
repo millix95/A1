@@ -193,11 +193,13 @@ nav a {
 #desno-ikonice {
     display: grid;
     justify-items: end;
-    height: 400px;
+    height: 250px;
+    left: 95%;
+    align-content: space-between;
     position: fixed;
-    bottom: 150px;
-    width: 100%;
-    z-index: -1;
+    bottom: calc(50% - 125px);
+    width: 5%;
+    z-index: 2;
 }
 
 /* STILIZACIJA SEKCIJE IZABERI SVOJ NEO */
@@ -372,7 +374,7 @@ nav a {
 
 #ikonice2 {
     position: relative;
-    top: 46%;
+    top: 44%;
     left: calc(50% - 100px);
 }
 
@@ -519,8 +521,7 @@ nav a {
 
 /* SEKCIJA ZASTO DA KUPIS ONLINE */
 #zasto-online {
-    width: 85vw;
-    right: 20px;
+    width: 90vw;
     position: relative;
     height: 650px;
     display: grid;
@@ -563,6 +564,7 @@ nav a {
     grid-area: b;
     background-image: url(./grid-sekcija/desna-pozadina.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #grid-desno {
@@ -573,6 +575,148 @@ nav a {
     padding-bottom: 40px;
 }
 
+
+/* SEKCIJA KRETANJA SLIKE */
+
 #dve-slike {
+    width: 90vw;
+    height: 35%;
+    margin: 150px auto 0 auto;
+    background-image: url(./dvije-slike/pozadina-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+#dve-slike-levo {
+    display: grid;
+    position: relative;
+    align-content: center;
+    top: 31%;
+    left: 10%;
+    width: 80%;
+}
+
+#dve-slike-tekst {
+    position: relative;
+}
+
+#dve-slike-dugme {
+    position: relative;
+    margin-top: 20px;
+}
+
+#dve-slike-kruzici {
+    position: relative;
+    left: calc(50% - 12.5px);
+    top: 100px
+}
+
+#dve-slike-strelica-desno-slika {
+    position: relative;
+    left: 90%;
+    bottom: 320px;
+    display: block;
+}
+
+#dve-slike-strelica-desno {
+    position: relative;
+    left: 90%;
+    bottom: 380px;
+    width: 34px;
+    height: 59px;
+    opacity: 0;
+    cursor: pointer;
+    display: block;
+}
+
+
+/* dve slike drugi deo */
+#dve-slike2 {
+    width: 90vw;
+    height: 35%;
+    margin: 150px auto 0 auto;
+    background-image: url(./dvije-slike/desno/pozadina.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+
+#dve-slike-levo2 {
+    display: grid;
+    align-content: center;
+    position: relative;
+    top: 33%;
+    left: 10%;
+    width: 80%;
+}
+
+#dve-slike-tekst2 {
+    position: relative;
+}
+
+#dve-slike-dugme2 {
+    position: relative;
+    margin-top: 20px;
+}
+
+#dve-slike-kruzici2 {
+    position: relative;
+    left: calc(50% - 12.5px);
+    top: 105px;
+}
+
+#dve-slike-strelica-levo-slika {
+    position: relative;
+    bottom: 321px;
+    left: 75px;
+    display: none;
+}
+
+
+
+#dve-slike-strelica-levo {
+    position: relative;
+    bottom: 380px;
+    left: 75px;
+    width: 34px;
+    height: 59px;
+    opacity: 0;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+
+footer {
+    width: 90vw;
     height: 100vh;
+    background-color: gray;
+    margin-top: 150px;
 }
