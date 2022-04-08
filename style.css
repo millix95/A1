@@ -427,10 +427,11 @@ nav a {
 
 /* STILIZACIJA SEKCIJE  "STA IMA" */
 #sta-ima {
-    margin-top: 50px;
+    margin-top: 150px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     box-sizing: border-box;
+    justify-items: center;
     width: 90vw;
 }
 
@@ -440,7 +441,7 @@ nav a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-content: center;
-    justify-items: center;
+    justify-items: end;
 }
 
 #sta-ima-tekst {
@@ -464,11 +465,6 @@ nav a {
 #sta-ima-tekst-net-za-sve {
     position: relative;
     bottom: 20px;
-}
-
-#zasto-online {
-    width: 100%;
-    height: 100vh;
 }
 
 #sta-ima-tekst-strelice {
@@ -519,4 +515,64 @@ nav a {
 #sta-ima-dugme-2 {
     position: relative;
     top: 135px;
+}
+
+/* SEKCIJA ZASTO DA KUPIS ONLINE */
+#zasto-online {
+    width: 85vw;
+    right: 20px;
+    position: relative;
+    height: 650px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "a b"
+        "c b";
+    gap: 30px;
+    box-sizing: border-box;
+    margin: 150px auto 0 auto;
+}
+
+#grid-levo-gore {
+    display: grid;
+    grid-area: a;
+    background-image: url(./grid-sekcija/gornja-leva-slika.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#grid-celina-1 {
+    position: relative;
+    height: 110px;
+    width: 423px;
+    top: 170px;
+    transform: scale(0.8);
+}
+
+#grid-levo-dole {
+    display: grid;
+    background-image: url(./grid-sekcija/leva-donja-slika.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: end;
+    grid-area: c;
+}
+
+#grid-desno {
+    grid-area: b;
+    background-image: url(./grid-sekcija/desna-pozadina.png);
+    background-size: cover;
+}
+
+#grid-desno {
+    box-sizing: border-box;
+    display: grid;
+    align-items: end;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+#dve-slike {
+    height: 100vh;
 }
