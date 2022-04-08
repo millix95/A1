@@ -8,6 +8,7 @@ let ppBez = document.querySelector('#ponuda-paketa');
 let ppSa = document.querySelector('#ponuda-paketa2');
 
 
+//  SA UREDJAJEM - BEZ UREDJAJA DUGMICI
 
 btn1.addEventListener('click', prikazati1);
 function prikazati1() {
@@ -29,3 +30,23 @@ function prikazati2() {
     ppBez.style.display = 'grid';
     ppSa.style.display = 'none';
 };
+
+
+//  STRELICE LEVO I DESNO
+
+let strelicaLevo = document.querySelector('#strelica-levo');
+let strelicaDesno = document.querySelector('#strelica-desno');
+let karticaJedan = document.querySelector('#tri-kartice-kartica1');
+let karticaTri = document.querySelector('#tri-kartice-kartica3');
+
+
+strelicaLevo.addEventListener('click', prikazati3);
+function prikazati3() {
+    karticaTri.style.display = 'none';
+    karticaJedan.style.display = 'grid';
+}
+strelicaDesno.addEventListener('click', prikazati4);
+function prikazati4() {
+    karticaJedan.style.display = 'none';
+    karticaTri.style.display = 'grid';
+}

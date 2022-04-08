@@ -46,8 +46,9 @@ li {
     justify-items: center;
     align-content: center;
     color: white;
-    width: 200px;
-    left: 80vw;
+    width: 12vw;
+    left: 85vw;
+    padding: 0;
 }
 
 #o-nama-nav {
@@ -121,7 +122,7 @@ nav a {
     width: 100px;
     height: 20px;
     top: 30px;
-    left: 90vw;
+    left: 89vw;
 }
 
 #a1-klub-plus {
@@ -141,7 +142,7 @@ nav a {
     top: 50px;
     width: 456px;
     height: 634px;
-    background-color: #DA2A1C;
+    background-color: #da2a1c;
 }
 
 #crveno-beli-okvir {
@@ -171,7 +172,7 @@ nav a {
 
 #neo15 p {
     margin-bottom: 20px;
-    color: #BBBBBB;
+    color: #bbbbbb;
 }
 
 #neo15 h1 {
@@ -186,7 +187,7 @@ nav a {
 
 #neo15-ul-lista li {
     padding-right: 20px;
-    color: #BBBBBB;
+    color: #bbbbbb;
 }
 
 #desno-ikonice {
@@ -237,12 +238,12 @@ nav a {
 
 #svetlije {
     width: 140px;
-    background-color: #DA2A1C;
+    background-color: #da2a1c;
 }
 
 #tamnije {
     width: 140px;
-    background-color: #D7D7D7;
+    background-color: #d7d7d7;
 }
 
 #sa-u-dugme {
@@ -323,7 +324,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
 }
 
 .float {
@@ -398,7 +399,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
 }
 
 #neo5-cena1 {
@@ -422,4 +423,100 @@ nav a {
 #paket-5-2,
 #paket-3-2 {
     width: 280px;
+}
+
+/* STILIZACIJA SEKCIJE  "STA IMA" */
+#sta-ima {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-sizing: border-box;
+    width: 90vw;
+}
+
+#tri-kartice {
+    width: 600px;
+    height: 432px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    justify-items: center;
+}
+
+#sta-ima-tekst {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+#sta-ima-tekst-pogodnosti {
+    position: relative;
+    padding-bottom: 20px;
+    bottom: 20px;
+}
+
+#sta-ima-tekst-sta-ima {
+    position: relative;
+    padding-bottom: 20px;
+    bottom: 25px;
+}
+
+#sta-ima-tekst-net-za-sve {
+    position: relative;
+    bottom: 20px;
+}
+
+#zasto-online {
+    width: 100%;
+    height: 100vh;
+}
+
+#sta-ima-tekst-strelice {
+    position: relative;
+    top: 135px;
+}
+
+#tri-kartice-kartica1 {
+    width: 290px;
+    height: 430px;
+    background-image: url(./Sta-ima-sekcije/1-3-celo.png);
+}
+
+#tri-kartice-kartica2 {
+    width: 290px;
+    height: 430px;
+    background-image: url(./Sta-ima-sekcije/kartica\ 2-3.png);
+}
+
+#tri-kartice-kartica3 {
+    width: 290px;
+    height: 430px;
+    background-image: url(./Sta-ima-sekcije/kartica\ 3-3.png);
+    display: none;
+}
+
+#dugme-2 {
+    position: absolute;
+    left: 4vw;
+}
+
+#strelica-levo {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+#strelica-desno {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+#sta-ima-dugme-2 {
+    position: relative;
+    top: 135px;
 }
