@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/f411c85807.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- STILIZACIJA NAVIGACIJE / HEADER -->
+    <header>
+        <ul id="leva-navigacija">
+            <li><a class="podebljan-tekst" href="#">PRIVATNI</a></li>
+            <li><a class="sivi-tekst" href="#">POSLOVNI</a></li>
+            <li><a class="sivi-tekst" href="#">NAŠA MREŽA</a></li>
+            <li><a class="sivi-tekst" href="#">BEZBEDNI KLINIC</a></li>
+            <li><a class="sivi-tekst" id="o-nama-nav" href="#">O NAMA</a></li>
+        </ul>
+        <ul id="desna-navigacija">
+            <li><a class="sivi-tekst" href="#">PODRŠKA</a></li>
+            <li class="sivi-tekst">|</li>
+            <li class="podebljan-tekst">SR</li>
+            <li class="sivi-tekst">EN</li>
+        </ul>
+    </header>
+    <!-- STILIZACIJA NAVIGACIJE A1 SAJTA -->
+    <nav>
+        <img id="a1" src="./Navigacija/Logo.png" alt="logo">
+        <ul id="a1-navigacija">
+            <li>
+                <a href="#">Aktuelno</a>
+                <div id="u-a1">
+                    <img id="u-a1-slika" src="./Navigacija/Vector 1.png" alt="u A1">
+                    <p id="u-a1-tekst">u A1</p>
+                </div>
+            </li>
+            <li><a href="#">Uređaji</a></li>
+            <li><a href="#">Postpaid</a></li>
+            <li><a href="#">Prepaid</a></li>
+            <li><a href="#">Internet</a></li>
+            <li><a href="#">Digitalni servisi</a></li>
+            <li><a id="a1-klub-plus" href="#">A1 Klub Plus</a></li>
+        </ul>
+        <div id="a1-desni-meni">
+            <i class="fa-solid fa-magnifying-glass pretraga"></i>
+            <p>Moj A1</p>
+        </div>
+    </nav>
+    <!-- leva crvena reklama -->
+    <section>
+        <div id="pregled">
+            <img id="crveno-beli-okvir" src="./Navigacija/NEO_15_KV_RED_H_B4 2.png" alt="beli okvir">
+            <img id="crveno-ikonice" src="./Navigacija/neo15-bubles 2.png" alt="ikonice">
+            <img id="crveno-tekst" src="./Navigacija/Nema šta nema!.png" alt="">
+        </div>
+        <div id="neo15">
+            <p>NEO tarifa</p>
+            <h1>NEO15 samo sad <br> 1.499 din</h1>
+            <ul id="neo15-ul-lista">
+                <li>Tarife</li>
+                <li>Pogodnosti</li>
+                <li>Zašto online</li>
+                <li>Dodaci</li>
+            </ul>
+        </div>
+    </section>
+    <!-- plutajuce ikonice na ekranu -->
+    <div id="desno-ikonice">
+        <img id="desna-gornja-ikonica" src="./Navigacija/desna-gornja-ikonica.png" alt="profil">
+        <img id="desna-donja-ikonica" src="./Navigacija/desna-donja-ikonica.png" alt="korpa">
+    </div>
+    <section id="izaberi-svoj-neo">
+        <h2 id="izaberi-neo">Izaberi svoj NEO</h2>
+        <div id="sa-bez">
+            <p id="sa-u">Sa uređajem</p>
+            <p id="bez-u">Bez uređaja</p>
+        </div>
+        <div id="dugme-1">
+            <div id="dugme1">
+                <button id="sa-u-dugme"></button>
+                <button id="bez-u-dugme"></button>
+            </div>
+        </div>
+
+        <div id="bar-linija">
+            <div id="svetlije"></div>
+            <div id="tamnije"></div>
+        </div>
+        <div id="ponuda-paketa">
+            <div id="paket-15">
+                <img id="ikonice1" src="./Navigacija/paket 15.2.png" alt="ikonice">
+                <img id="ikonica1" src="./Navigacija/paket 15.3.png" alt="deezer">
+                <img id="ikonica2" src="./Navigacija/paket 15.4.png" alt="ikonica">
+                <img id="dugme1" src="./Navigacija/paket 15.1.png" alt="dugme">
+            </div>
+            <div id="paket-5">
+                <img src="./Navigacija/neo5.png" alt="neo5">
+                <img class="float" id="neo5-cena" src="./Navigacija/neo5-cena.png" alt="cena">
+                <img class="float" id="neo5-dugme" src="./Navigacija/neo5-dugme.png" alt="dugmence">
+            </div>
+            <div id="paket-3">
+            </div>
+        </div>
+        <div id="ponuda-paketa2">
+            <div id="paket-15-2">
+                <img id="ikonice2" src="./Navigacija/paket 15.2.png" alt="ikonice">
+                <img id="ikonica3" src="./Navigacija/paket 15.3.png" alt="deezer">
+                <img id="ikonica4" src="./Navigacija/paket 15.4.png" alt="ikonica">
+                <img id="dugme2" src="./Navigacija/paket 15.1.png" alt="dugme">
+            </div>
+            <div id="paket-5-2">
+                <img src="./Navigacija/neo5.png" alt="neo5">
+                <img class="float" id="neo5-cena1" src="./neo-paket-bez-u/neo5-cena.png" alt="cena">
+                <img class="float" id="neo5-dugme1" src="./Navigacija/neo5-dugme.png" alt="dugmence">
+            </div>
+            <div id="paket-3-2">
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>

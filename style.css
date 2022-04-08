@@ -1,0 +1,425 @@
+/* STILIZACIJA NAVIGACIJE / HEADER */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 200vh;
+}
+
+header {
+    background-color: black;
+    height: 40px;
+}
+
+a {
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+header ul {
+    display: inline;
+    position: absolute;
+    top: 10px;
+    height: 20px;
+    padding-left: 50px;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+}
+
+#leva-navigacija {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+#desna-navigacija {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-content: center;
+    color: white;
+    width: 200px;
+    left: 80vw;
+}
+
+#o-nama-nav {
+    padding-left: 50px;
+}
+
+.sivi-tekst {
+    color: #c7c7c7;
+}
+
+.podebljan-tekst {
+    color: white;
+    font-weight: bold;
+}
+
+/* STILIZACIJA NAVIGACIJE A1 SAJTA */
+nav {
+    position: relative;
+    height: 80px;
+    display: grid;
+    align-content: center;
+}
+
+nav ul {
+    display: inline;
+    position: absolute;
+    top: 10px;
+    height: 20px;
+    padding-left: 50px;
+}
+
+nav li {
+    padding: 0;
+}
+
+nav a {
+    color: black;
+}
+
+#a1 {
+    padding-left: 70px;
+}
+
+#a1-navigacija {
+    top: 30px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    left: 150px;
+}
+
+#u-a1 {
+    position: absolute;
+    bottom: 15px;
+    left: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#u-a1-tekst {
+    font-size: 15px;
+    color: white;
+    position: absolute;
+}
+
+#a1-desni-meni {
+    position: absolute;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100px;
+    height: 20px;
+    top: 30px;
+    left: 90vw;
+}
+
+#a1-klub-plus {
+    padding-left: 20px;
+}
+
+.pretraga {
+    position: relative;
+    left: 25px;
+    transform: scale(1.1);
+}
+
+/* STILIZACIJA LEVOG CRVENE REKLAME */
+#pregled {
+    position: relative;
+    left: 7vw;
+    top: 50px;
+    width: 456px;
+    height: 634px;
+    background-color: #DA2A1C;
+}
+
+#crveno-beli-okvir {
+    position: relative;
+    left: 5%;
+    top: 10%;
+}
+
+#crveno-ikonice {
+    position: relative;
+    left: 33.7%;
+}
+
+#crveno-tekst {
+    position: relative;
+    bottom: 65%;
+    left: 20%;
+}
+
+#neo15 {
+    position: relative;
+    bottom: 420px;
+    left: 50vw;
+    width: 45vw;
+    height: 300px;
+}
+
+#neo15 p {
+    margin-bottom: 20px;
+    color: #BBBBBB;
+}
+
+#neo15 h1 {
+    font-size: 80px;
+}
+
+#neo15-ul-lista {
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+
+#neo15-ul-lista li {
+    padding-right: 20px;
+    color: #BBBBBB;
+}
+
+#desno-ikonice {
+    display: grid;
+    justify-items: end;
+    height: 400px;
+    position: fixed;
+    bottom: 150px;
+    width: 100%;
+    z-index: -1;
+}
+
+/* STILIZACIJA SEKCIJE IZABERI SVOJ NEO */
+#izaberi-svoj-neo {
+    height: 900px;
+}
+
+#izaberi-neo {
+    justify-content: center;
+    font-size: 60px;
+    display: grid;
+}
+
+#sa-bez {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#sa-bez p {
+    padding: 0 20px;
+}
+
+#bez-u {
+    font-weight: normal;
+}
+
+#sa-u {
+    font-weight: bold;
+}
+
+#bar-linija {
+    position: relative;
+    height: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+#svetlije {
+    width: 140px;
+    background-color: #DA2A1C;
+}
+
+#tamnije {
+    width: 140px;
+    background-color: #D7D7D7;
+}
+
+#sa-u-dugme {
+    width: 90px;
+    height: 20px;
+    padding: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#bez-u-dugme {
+    width: 88px;
+    height: 20px;
+    padding: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#dugme1 {
+    display: flex;
+    justify-content: space-between;
+    width: 217px;
+    position: relative;
+}
+
+#dugme-1 {
+    display: flex;
+    justify-content: normal;
+    position: relative;
+    bottom: 20px;
+}
+
+/* stilizacija ponude paketa bez uredjaja*/
+
+#ponuda-paketa {
+    grid-template-columns: repeat(3, 1fr);
+    box-sizing: border-box;
+    height: 740px;
+    width: 900px;
+    position: relative;
+    left: calc(50% - 450px);
+    top: 20px;
+    display: none;
+}
+
+/* stilizacija prvog paketa 1/3 */
+#paket-15 {
+    background-image: url(./Navigacija/paket\ 15.png);
+}
+
+#ikonice1 {
+    position: relative;
+    top: 46%;
+    left: calc(50% - 100px);
+}
+
+#ikonica1 {
+    position: relative;
+    top: 55%;
+    right: 54%;
+}
+
+#ikonica2 {
+    position: relative;
+    top: 55%;
+    right: 50%;
+}
+
+#dugme1 {
+    position: relative;
+    top: 76%;
+    width: 216px;
+    left: calc(50% - 106px);
+}
+
+/* stilizacija drugog paketa 2/3 */
+#paket-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+
+.float {
+    position: absolute;
+}
+
+#neo5-cena {
+    top: 63%;
+    left: 37%;
+}
+
+#neo5-dugme {
+    top: 80%;
+    left: 36%;
+}
+
+#paket-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./Navigacija/neo3.png);
+}
+
+#paket-15,
+#paket-5,
+#paket-3 {
+    width: 280px;
+}
+
+/* ponuda paketa sa uredjaja */
+#ponuda-paketa2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    box-sizing: border-box;
+    height: 740px;
+    width: 900px;
+    position: relative;
+    left: calc(50% - 450px);
+    top: 20px;
+}
+
+#paket-15-2 {
+    background-image: url(./neo-paket-bez-u/neo15-pozadina.png);
+}
+
+#ikonice2 {
+    position: relative;
+    top: 46%;
+    left: calc(50% - 100px);
+}
+
+#ikonica3 {
+    position: relative;
+    top: 55%;
+    right: 54%;
+}
+
+#ikonica4 {
+    position: relative;
+    top: 55%;
+    right: 50%;
+}
+
+#dugme2 {
+    position: relative;
+    top: 76%;
+    width: 216px;
+    left: calc(50% - 106px);
+}
+
+#paket-5-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+
+#neo5-cena1 {
+    top: 63%;
+    left: 37%;
+}
+
+#neo5-dugme1 {
+    top: 80%;
+    left: 36%;
+}
+
+#paket-3-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./neo-paket-bez-u/neo3-pozadina.png);
+}
+
+#paket-15-2,
+#paket-5-2,
+#paket-3-2 {
+    width: 280px;
+}
