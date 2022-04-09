@@ -61,35 +61,35 @@ let animacijaStreliceL = document.querySelector('#dve-slike-strelica-levo-slika'
 let animacijaStreliceD = document.querySelector('#dve-slike-strelica-desno-slika');
 
 
-// strelicaD.addEventListener('click', prebaciSekciju);
-// function prebaciSekciju(e) {
-//     e.preventDefault();
-//     sekcijaL.style.display = 'none';
-//     sekcijaL.style.animationName = 'fadeOut';
-//     sekcijaL.style.animationDuration = '2s';
-//     sekcijaD.style.display = 'grid';
-//     sekcijaD.style.animationName = 'fadeIn';
-//     sekcijaD.style.animationDuration = '2s';
-//     animacijaStreliceD.style.display = 'none';
-//     animacijaStreliceL.style.display = 'grid';
-//     strelicaL.style.display = 'grid';
-// }
+strelicaD.addEventListener('click', prebaciSekciju);
+function prebaciSekciju(e) {
+    e.preventDefault();
+    sekcijaL.style.display = 'none';
+    sekcijaL.style.animationName = 'fadeOut';
+    sekcijaL.style.animationDuration = '2s';
+    sekcijaD.style.display = 'grid';
+    sekcijaD.style.animationName = 'fadeIn';
+    sekcijaD.style.animationDuration = '2s';
+    animacijaStreliceD.style.display = 'none';
+    animacijaStreliceL.style.display = 'grid';
+    strelicaL.style.display = 'grid';
+}
 
-// strelicaL.addEventListener('click', prebaciSekciju2);
-// function prebaciSekciju2(e2) {
-//     e2.preventDefault();
-//     sekcijaL.style.display = 'grid';
-//     sekcijaL.style.animationName = 'fadeIn';
-//     sekcijaL.style.animationDuration = '2s';
-//     sekcijaD.style.display = 'none';
-//     sekcijaD.style.animationName = 'fadeOut';
-//     sekcijaD.style.animationDuration = '2s';
-//     animacijaStreliceD.style.display = 'grid';
-//     animacijaStreliceL.style.display = 'none';
-//     strelicaL.style.display = 'none';
-//     strelicaD.style.display = 'grid';
+strelicaL.addEventListener('click', prebaciSekciju2);
+function prebaciSekciju2(e2) {
+    e2.preventDefault();
+    sekcijaL.style.display = 'grid';
+    sekcijaL.style.animationName = 'fadeIn';
+    sekcijaL.style.animationDuration = '2s';
+    sekcijaD.style.display = 'none';
+    sekcijaD.style.animationName = 'fadeOut';
+    sekcijaD.style.animationDuration = '2s';
+    animacijaStreliceD.style.display = 'flex';
+    animacijaStreliceL.style.display = 'none';
+    strelicaL.style.display = 'none';
+    strelicaD.style.display = 'flex';
 
-// }
+}
 // test
 var splide = new Splide('.splide', {
     type: 'fade',

@@ -579,13 +579,13 @@ nav a {
 /* SEKCIJA KRETANJA SLIKE */
 
 #dve-slike {
-    width: 90vw;
-    height: 710px;
+    width: 1440px;
+    height: 800px;
     margin: 150px auto 0 auto;
     background-image: url(./dvije-slike/pozadina-1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    display: none;
+    display: grid;
 }
 
 @keyframes fadeOut {
@@ -621,23 +621,24 @@ nav a {
 
 #dve-slike-tekst {
     position: relative;
+    top: 120px;
 }
 
 #dve-slike-dugme {
     position: relative;
-    margin-top: 20px;
+    top: 140px;
 }
 
 #dve-slike-kruzici {
     position: relative;
     left: calc(50% - 12.5px);
-    top: 100px
+    top: 360px
 }
 
 #dve-slike-strelica-desno-slika {
     position: relative;
     left: 93%;
-    bottom: 140px;
+    bottom: 175px;
     display: block;
 }
 
@@ -646,7 +647,7 @@ nav a {
     width: 34px;
     height: 59px;
     left: 93%;
-    bottom: 270px;
+    bottom: 332px;
     opacity: 0;
     cursor: pointer;
 }
@@ -654,8 +655,8 @@ nav a {
 
 /* dve slike drugi deo */
 #dve-slike2 {
-    width: 90vw;
-    height: 710px;
+    width: 1440px;
+    height: 800px;
     margin: 150px auto 0 auto;
     background-image: url(./dvije-slike/desno/pozadina.png);
     background-repeat: no-repeat;
@@ -667,29 +668,21 @@ nav a {
     display: grid;
     align-content: center;
     position: relative;
-    top: 33%;
+    top: 188px;
     left: 10%;
     width: 80%;
 }
 
-#dve-slike-tekst2 {
-    position: relative;
-}
-
-#dve-slike-dugme2 {
-    position: relative;
-    margin-top: 20px;
-}
 
 #dve-slike-kruzici2 {
     position: relative;
     left: calc(50% - 12.5px);
-    top: 105px;
+    top: 558px;
 }
 
 #dve-slike-strelica-levo-slika {
     position: relative;
-    bottom: 120px;
+    bottom: 60px;
     left: 3%;
 }
 
@@ -697,7 +690,7 @@ nav a {
 
 #dve-slike-strelica-levo {
     position: relative;
-    bottom: 252px;
+    bottom: 283px;
     left: 3%;
     width: 34px;
     height: 59px;
@@ -734,41 +727,58 @@ footer {
 
 #dve-slike-tekst2 {
     position: absolute;
-    transform: scale(0.3);
-    right: 500px;
+    right: 775px;
+    top: 100px;
 }
 
 #dve-slike-dugme2 {
     position: absolute;
-    transform: scale(0.2);
-    right: 600px;
-    top: 480px;
+    right: 949px;
+    top: 357px;
 }
 
 #dve-slike-tekst3 {
     position: absolute;
-    transform: scale(0.3);
-    right: 500px;
-    bottom: -65px;
+    transform: scale(0.2);
+    right: 430px;
+    bottom: -35px;
 }
 
 #dve-slike-dugme3 {
     position: absolute;
+    transform: scale(0.1);
+    right: 502px;
+    top: 300px;
+}
+
+#dve-slike-tekst4 {
+    position: absolute;
     transform: scale(0.2);
-    right: 600px;
-    top: 500px;
+    right: 430px;
+    bottom: -100px;
+}
+
+#dve-slike-dugme4 {
+    position: absolute;
+    transform: scale(0.1);
+    right: 502px;
+    top: 300px;
 }
 
 #mini-tekst {
     position: absolute;
     transform: scale(0.1);
-    right: 690px;
+    right: 502px;
     top: 150px;
 }
 
-#pozadina {
+.pozadina {
     position: absolute;
-    width: 100vw;
+    width: 1440px;
+}
+
+.splide__list li {
+    height: 680px;
 }
 
 footer {
@@ -777,7 +787,7 @@ footer {
     background-color: black;
     margin-top: 150px;
     display: grid;
-    grid-template-rows: 1fr 5px 20px;
+    grid-template-rows: 1fr 1px 45px;
 }
 
 #gornji-deo-levo {
@@ -804,4 +814,12 @@ footer {
 hr {
     background-color: white;
     height: 1px;
+}
+
+.splide__pagination__page {
+    background: white;
+}
+
+.splide__pagination__page.is-active {
+    background: red;
 }
