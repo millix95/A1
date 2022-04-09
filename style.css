@@ -585,7 +585,7 @@ nav a {
     background-image: url(./dvije-slike/pozadina-1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    display: grid;
+    display: none;
 }
 
 @keyframes fadeOut {
@@ -705,12 +705,7 @@ nav a {
     cursor: pointer;
 }
 
-
-
-
-
-
-
+/* 
 footer {
     background-image: url(./footer/Footer.png);
     background-repeat: no-repeat;
@@ -718,4 +713,95 @@ footer {
     width: 100%;
     height: 656px;
     margin-top: 150px;
+} */
+
+/* test */
+.splide {
+    margin: 150px auto 0 auto;
+    width: 90vw;
+}
+
+.splide__slide {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.splide__slide img {
+    width: 100%;
+}
+
+#dve-slike-tekst2 {
+    position: absolute;
+    transform: scale(0.3);
+    right: 500px;
+}
+
+#dve-slike-dugme2 {
+    position: absolute;
+    transform: scale(0.2);
+    right: 600px;
+    top: 480px;
+}
+
+#dve-slike-tekst3 {
+    position: absolute;
+    transform: scale(0.3);
+    right: 500px;
+    bottom: -65px;
+}
+
+#dve-slike-dugme3 {
+    position: absolute;
+    transform: scale(0.2);
+    right: 600px;
+    top: 500px;
+}
+
+#mini-tekst {
+    position: absolute;
+    transform: scale(0.1);
+    right: 690px;
+    top: 150px;
+}
+
+#pozadina {
+    position: absolute;
+    width: 100vw;
+}
+
+footer {
+    width: 100%;
+    height: 575px;
+    background-color: black;
+    margin-top: 150px;
+    display: grid;
+    grid-template-rows: 1fr 5px 20px;
+}
+
+#gornji-deo-levo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+#gornji-deo-levo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#gornji-deo-levo-slika {
+    height: 530px;
+}
+
+#gornji-deo-levo-tekst {
+    margin: 0 auto;
+}
+
+hr {
+    background-color: white;
+    height: 1px;
 }
